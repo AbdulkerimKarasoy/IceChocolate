@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cool.css">
+    
+    <title>Ice Chocolate</title>
+</head>
+<body>
+    <img src="https://asset-americas.unileversolutions.com/content/dam/unilever/magnum/united_states_of_america/digital_and_social/bars_banner_test_1_-105350742-png.png" >     
+    <div class="main">
+         
+        <h1> Welcome to Ice Chocolate</h1>
+
+        <p> It tastes really good, that's why we are the best. Enjoy it before it becomes unaffordable</p>
+        <p>
+            
+            <form method="POST">
+            
+
+            <h3>choose from the flavors below</h3>
+            <label for="perfume1"> 1st Scoop: </label>
+            <select name="perfume1" id="perfume1" > 
+                <option value="">--</option>
+                <option value="chocolate">chocolate</option>
+                <option value="strawberry">strawberry</option>
+                <option value="caramel">caramel</option>
+                <option value="vanilla">vanilla</option>
+
+            </select>
+
+            <label for="perfume2"> 2nd Scoop: </label>
+            <select name="perfume2" id="perfume2" >
+                <option value="">--</option>
+                <option value="chocolate">chocolate</option>
+                <option value="strawberry">strawberry</option>
+                <option value="caramel">caramel</option>
+                <option value="vanilla">vanilla</option>
+
+            </select>
+
+            <label for="perfume3"> 3rd Scoop:</label> 
+            <select name="perfume3" id="perfume3" >
+                <option value="">--</option>
+                <option value="chocolate">chocolate</option>
+                <option value="strawberry">strawberry</option>
+                <option value="caramel">caramel</option>
+                <option value="vanilla">vanilla</option>
+
+            </select>
+
+            <label for="perfume4"> 4th Scoop:</label> 
+            <select name="perfume4" id="perfume4" >
+                <option name="">--</option>
+                <option name="chocolate">chocolate</option>
+                <option name="strawberry">strawberry</option>
+                <option name="caramel">caramel</option>
+                <option name="vanilla">vanilla</option>
+            
+            </select>
+
+
+            <button type="submit">Order Now!</button>
+
+        </form>
+
+
+        </p>
+
+        <div id="total">
+            <p>Your Current Total is: {{total_amount}}</p>
+        </div>
+
+        <div id="availability">
+            <p>Availability: {{availability}}</p>
+        </div>
+
+    </div>
+    
+
+
+</body>
+</html>

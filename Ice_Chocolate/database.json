@@ -1,0 +1,26 @@
+{
+
+"chocolate":
+            {"price":5, "stock":3},
+"vanilla":
+         {"price":4, "stock":3},
+
+"caramel":
+          {"price":4, "stock":3},
+ 
+"strawberry":
+              {"price":6, "stock":3}     
+                     
+            }
+
+
+
+
+
+
+
+
+
+
+
+
